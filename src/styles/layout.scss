@@ -1,0 +1,19 @@
+header{
+    font-size: 1rem;
+    background-color:#3D1860;
+    color: #F5EDF7;
+    text-transform: uppercase;
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        .logo{
+            display: flex;
+            .logoImg{
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
+}

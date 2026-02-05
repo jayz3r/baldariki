@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+
+  /* font-size: 16px; */
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  background-color: #F5EDF7;
+  color: #3D1860;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+@import "tailwindcss";
+@source "./index.html";
+@source "./src/**/*.{js,ts,jsx,tsx}";
