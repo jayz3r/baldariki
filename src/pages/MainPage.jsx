@@ -2,7 +2,7 @@ import Bath from "../components/Bath";
 import Helpers from "../components/Helpers";
 import IntroductionSection from "../components/IntroductionSection";
 import Safety from "../components/Safety";
-import Services from "../components/services";
+import About from "../components/About";
 import Walk from "../components/Walk";
 import "../styles/mainpage.scss";
 
@@ -10,7 +10,7 @@ const MainPage = () => {
   return (
     <div className="min-h-screen">
       <IntroductionSection />
-      <Services />
+      <About />
       <Helpers />
       
       {/* Divider Line */}
